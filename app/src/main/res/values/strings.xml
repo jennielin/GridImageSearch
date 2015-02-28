@@ -1,11 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">GridImageSearch</string>
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Google Image Search</string>
     <string name="search_prompt">Enter search query</string>
     <string name="search_label">Search</string>
-    <string name="title_activity_image_display">ImageDisplayActivity</string>
+
+    <string name="label_image_size">Image Size</string>
+    <string name="label_image_color">Image Color</string>
+    <string name="label_image_type">Image Type</string>
+    <string name="label_site">Search Site</string>
+
+
+    <string name="title_activity_image_display">Full Image</string>
+    <string name="title_activity_options">OptionsActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string-array name="imageSize_array">
+        <item>all</item>
+        <item>small</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>xxlarge</item>
+    </string-array>
+
+    <string-array name="colorFilter_array">
+        <item>all</item>
+        <item>black</item>
+        <item>blue</item>
+        <item>brown</item>
+        <item>gray</item>
+        <item>green</item>
+        <item>orange</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>red</item>
+        <item>teal</item>
+        <item>white</item>
+        <item>yellow</item>
+    </string-array>
+
+    <string-array name="imageType_array">
+        <item>all</item>
+        <item>face</item>
+        <item>photo</item>
+        <item>clipart</item>
+        <item>lineart</item>
+    </string-array>
+
 
 </resources>

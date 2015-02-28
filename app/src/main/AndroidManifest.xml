@@ -26,6 +26,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.pleasure.gridimagesearch.activities.SearchActivity" />
         </activity>
+        <activity
+            android:name=".activities.OptionsActivity"
+            android:label="@string/title_activity_options" >
+        </activity>
     </application>
 
 </manifest>
+
+

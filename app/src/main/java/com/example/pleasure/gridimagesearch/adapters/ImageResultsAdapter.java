@@ -19,14 +19,23 @@ import java.util.List;
  * Created by Pleasure on 2/21/2015.
  */
 public class ImageResultsAdapter extends ArrayAdapter<ImageResult> {
+
+    // Has to have two methods
+    /// This one is the constructor? Just need to pass data to the adapter
     public ImageResultsAdapter(Context context, List<ImageResult> images){
         super(context, android.R.layout.simple_list_item_1, images);
     }
 
+    // Give the gridview the view of the image/title
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        //return super.getView(position, convertView, parent);
+        // Get the item xml, inflate it, return to the gridview it is calling now
+        // Ask for a view at this position, return it
+        // return super.getView(position, convertView, parent);
+
         ImageResult imageInfo = getItem(position);
+        // Ctrl-Shift-O to fix imports?
+        // check if an existing view is reused, otherwise inflate the view
         if (convertView == null) {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.item_image_result, parent, false);
         }

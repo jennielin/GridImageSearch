@@ -16,6 +16,8 @@ public class ImageResult implements Serializable {
     public String thumbUrl;
     public String title;
 
+
+
     public ImageResult(JSONObject json) {
         try {
             this.fullUrl = json.getString("url");

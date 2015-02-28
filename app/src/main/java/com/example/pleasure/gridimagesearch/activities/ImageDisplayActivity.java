@@ -11,13 +11,14 @@ import com.example.pleasure.gridimagesearch.R;
 import com.example.pleasure.gridimagesearch.models.ImageResult;
 import com.squareup.picasso.Picasso;
 
-public class ImageDisplayActivity extends Activity {
+public class ImageDisplayActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_image_display);
-        getActionBar().hide();
+
+        getSupportActionBar().hide();
         // get the url
         ImageResult result = (ImageResult)getIntent().getSerializableExtra("result");
         // find the image view
@@ -50,4 +51,5 @@ public class ImageDisplayActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }

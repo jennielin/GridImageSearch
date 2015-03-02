@@ -27,14 +27,15 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Learning
 
-1. [Android Intents and Filters](http://www.tutorialspoint.com/android/android_intents_filters.htm) - "An Android Intent is an object carrying an intent ie. message from one component to another component with-in the application or outside the application."  In this case, the search options between the main activity and the settings activity.
+1. [Intents](http://guides.codepath.com/android/Using-Intents-to-Create-Flows) - "An intent is a message that can be thought of as a request that is given to either an activity within your own app, an external application, or a built-in Android service." "The Intent object itself is a class that represents a particular "request" including the topic of the request and any request "parameters" which are called the Bundle." In this case, the search options data between the main activity and the settings activity.
 
 2. Set EndlessScrollListener() on GridView 
 
 3. Create image asset, spinner, etc.
 
-4. Use ActionBarActivity.  Add items under menu.
-5. [Android Activity lifecycle](http://www.tutorialspoint.com/android/images/android_activity_lifecycle.jpg)
+4. Use ActionBarActivity.  Add the items under menu.
+
+5. [Android Activity lifecycle](https://plus.google.com/+StefanCaliaro/posts/XLjXncMdT55?pid=6120569443807311266&oid=107292960535792201556)
 
 
 

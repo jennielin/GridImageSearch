@@ -16,7 +16,7 @@ The following user stories are completed:
 	* Site (espn.com)
 * [x] Subsequent searches will have any filters applied to the search results
 * [x] User can tap on any image in results to see the image full-screen
-* [x] User can scroll down ìinfinitelyî to continue loading more image results (up to 8 pages)
+* [x] User can scroll down ‚Äúinfinitely‚Äù to continue loading more image results (up to 8 pages)
 
 
 
@@ -27,13 +27,15 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Learning
 
-1. "An Android Intent is an object carrying an intent ie. message from one component to another component with-in the application or outside the application."  In this case, the search options between the main activity and the settings activity.
+1. [Intents](http://guides.codepath.com/android/Using-Intents-to-Create-Flows) - "An intent is a message that can be thought of as a request that is given to either an activity within your own app, an external application, or a built-in Android service." "The Intent object itself is a class that represents a particular "request" including the topic of the request and any request "parameters" which are called the Bundle." In this case, the search options data between the main activity and the settings activity.
 
 2. Set EndlessScrollListener() on GridView 
 
 3. Create image asset, spinner, etc.
 
-4. Use ActionBarActivity.  Add items under menu.
+4. Use ActionBarActivity.  Add the items under menu.
+
+5. [Android Activity lifecycle](https://plus.google.com/+StefanCaliaro/posts/XLjXncMdT55?pid=6120569443807311266&oid=107292960535792201556)
 
 
 
